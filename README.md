@@ -1,2 +1,1 @@
 # twichadash-custom-bot
-Python
