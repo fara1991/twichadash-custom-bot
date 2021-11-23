@@ -37,7 +37,7 @@ def intercept(message, user_name, bits, subscription_month_count, is_subscriptio
     # Send～は、.Textに 'go' を代入したときに処理される
     # ↑ここまでテンプレ
 
-    if user_name in ['Streamlabs', 'NightBot']:
+    if user_name in ['StreamLabs', 'NightBot', 'StreamElements']:
         send_event_response_message(message, bits)
 
     send_multilingual_message(message)
